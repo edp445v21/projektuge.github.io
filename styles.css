@@ -1,0 +1,63 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    text-align: center;
+    background-image: url('giphy.gif'); /* Reference to your local .gif file */
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(58, 90, 64, 0.8); /* Transparent background for header */
+    padding: 20px 0;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.content-section {
+    display: none;
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button[onclick="goBack()"] {
+    background-color: #f44336;
+}
+
+button[onclick="goBack()"]:hover {
+    background-color: #e53935;
+}
